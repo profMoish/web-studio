@@ -44,7 +44,7 @@
       -moz-osx-font-smoothing: grayscale;
       font-family: 'Helvetica', sans-serif;
     }
-    /* @media (max-width: 500px) {
+    @media (max-width: 500px) {
       h1{
         font-weight: 500 !important;
       }
@@ -52,7 +52,13 @@
         font-weight: 300 !important;
         font-size: 10vw !important;
       }
-    } */
+    }
+
+    @media (max-width: 390px) {
+      .home-hero-image-wrapper  h1:nth-child(2){
+        font-size: 8vw !important;
+      }
+    }
   </style>
  </head>
 
@@ -75,7 +81,7 @@
       <div class="navbar-wrapper">
         <div class="navbar">
           <header class="navbar-inner">
-            <div id="w-node-cf665aa7-612c-9713-0917-12f535c66615-35c6660f" class="navbar-left"><a href="/"
+            <div id="w-node-cf665aa7-612c-9713-0917-12f535c66615-35c6660f" class="navbar-left"><a onclick="sendTracking('❗️ click logo')" href="/"
                 aria-current="page" class="navbar-logo-link w-inline-block w--current">
 
                <img src="logo.svg" alt="логотип"  height="50px">
@@ -83,7 +89,7 @@
               </a></div>
 
             <div id="w-node-cf665aa7-612c-9713-0917-12f535c66629-35c6660f" class="navbar-right">
-              <nav class="navbar-menu"><a href="/second.html" class="navbar-menu-item-link w-inline-block">
+              <nav class="navbar-menu"><a onclick="sendTracking('❗️ проекты')" href="/second.html" class="navbar-menu-item-link w-inline-block">
                   <div class="navbar-menu-item-inner">
                     <div class="navbar-menu-item-text"
                       style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
@@ -92,16 +98,16 @@
                       style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
                       проекты</div>
                   </div>
-                </a><a href="/second.html" class="navbar-menu-item-link w-inline-block">
+                </a><a onclick="sendTracking('❗️ услуги')" href="price.html" class="navbar-menu-item-link w-inline-block">
                   <div class="navbar-menu-item-inner">
                     <div class="navbar-menu-item-text"
                       style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-                      условия</div>
+                      услуги</div>
                     <div class="navbar-menu-item-text-hover"
                       style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-                      условия</div>
+                      услуги</div>
                   </div>
-                </a><a href="/second.html" class="navbar-menu-item-link w-inline-block">
+                </a><a onclick="sendTracking('❗️ о нас')" href="/second.html" class="navbar-menu-item-link w-inline-block">
                   <div class="navbar-menu-item-inner">
                     <div class="navbar-menu-item-text"
                       style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
@@ -110,7 +116,7 @@
                       style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
                       о нас</div>
                   </div>
-                </a><a href="/second.html" class="navbar-menu-item-link w-inline-block">
+                </a><a onclick="sendTracking('❗️ блог')" href="/second.html" class="navbar-menu-item-link w-inline-block">
                   <div class="navbar-menu-item-inner">
                     <div class="navbar-menu-item-text"
                       style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
@@ -140,17 +146,17 @@
                             <div class="margin-bottom margin-medium">
                               <h3 class="heading-style-h6 text-style-allcaps">web-studio neon</h3>
                             </div>
-                            <div class="nav"><a href="/" aria-current="page"
+                            <div class="nav"><a onclick="sendTracking('‼️ 2 ‼️ главное ‼️')" href="/" aria-current="page"
                                 class="nav-item inverse w-inline-block w--current" tabindex="0">
                                 <div class="nav-item-text">Главная</div>
                                 <div class="nav-item-line inverse" style="width: 0%;"></div>
-                              </a><a href="/second.html" class="nav-item inverse w-inline-block" tabindex="0">
+                              </a><a onclick="sendTracking('❗️ 2 услуги')" href="price.html" class="nav-item inverse w-inline-block" tabindex="0">
                                 <div class="nav-item-text">услуги</div>
                                 <div class="nav-item-line inverse" style="width: 0%;"></div>
-                              </a><a href="/second.html" class="nav-item inverse w-inline-block" tabindex="0">
+                              </a><a onclick="sendTracking('❗️ 2 о нас')" href="/second.html" class="nav-item inverse w-inline-block" tabindex="0">
                                 <div class="nav-item-text">О нас</div>
                                 <div class="nav-item-line inverse" style="width: 0%;"></div>
-                              </a><a href="#contact" class="nav-item inverse w-inline-block" tabindex="0">
+                              </a><a onclick="sendTracking('❗️ 2 контакты ')" href="contact.html" class="nav-item inverse w-inline-block" tabindex="0">
                                 <div class="nav-item-text">Контакты</div>
                                 <div class="nav-item-line inverse" style="width: 0%;"></div>
                               </a></div>
@@ -164,25 +170,25 @@
                             <div class="margin-bottom margin-medium">
                               <h3 class="heading-style-h6 text-style-allcaps">CMS</h3>
                             </div>
-                            <div class="nav"><a href="/work" class="nav-item inverse w-inline-block" tabindex="0">
+                            <div class="nav"><a onclick="sendTracking('‼️ 3 ‼️ работы ‼️')" href="second.html" class="nav-item inverse w-inline-block" tabindex="0">
                                 <div class="nav-item-text">Работы</div>
                                 <div class="nav-item-line inverse" style="width: 0%;"></div>
-                              </a><a href="https://cncpt-template.webflow.io/work/valencia"
+                              </a><a onclick="sendTracking('‼️ 3 ‼️ примеры работ ‼️')" href="second.html"
                                 class="nav-item inverse w-inline-block" tabindex="0">
                                 <div class="nav-item-text">Пример работы</div>
                                 <div class="nav-item-line inverse" style="width: 0%;"></div>
-                              </a><a href="/blog" class="nav-item inverse w-inline-block" tabindex="0">
+                              </a><a onclick="sendTracking('‼️ 3 ‼️ блог ‼️')" href="second.html" class="nav-item inverse w-inline-block" tabindex="0">
                                 <div class="nav-item-text">Блог</div>
                                 <div class="nav-item-line inverse" style="width: 0%;"></div>
-                              </a><a
-                                href="https://cncpt-template.webflow.io/post/natures-influence-harnessing-biophilic-design-for-harmonious-interiors"
+                              </a><a onclick="sendTracking('‼️ 3 ‼️ пример статьи ‼️')"
+                                href="second.html"
                                 class="nav-item inverse w-inline-block" tabindex="0">
                                 <div class="nav-item-text">Пример статьи</div>
                                 <div class="nav-item-line inverse" style="width: 0%;"></div>
-                              </a><a href="/shop" class="nav-item inverse w-inline-block" tabindex="0">
+                              </a><a onclick="sendTracking('‼️ 3 ‼️ магазин ‼️')" href="/shop" class="nav-item inverse w-inline-block" tabindex="0">
                                 <div class="nav-item-text">Магазин</div>
                                 <div class="nav-item-line inverse" style="width: 0%;"></div>
-                              </a><a href="https://cncpt-template.webflow.io/product/cncpt-r-issue-1"
+                              </a><a onclick="sendTracking('‼️ 3 ‼️ пример товара ‼️')" href="second.html"
                                 class="nav-item inverse w-inline-block" tabindex="0">
                                 <div class="nav-item-text">Пример товара</div>
                                 <div class="nav-item-line inverse" style="width: 0%;"></div>
@@ -193,27 +199,27 @@
                             <div class="margin-bottom margin-medium">
                               <h3 class="heading-style-h6 text-style-allcaps">Утилиты</h3>
                             </div>
-                            <div class="nav"><a href="https://cncpt-template.webflow.io/404"
+                            <div class="nav"><a onclick="sendTracking('‼️ 3 ‼️ Страница 404 ‼️')" href="second.html"
                                 class="nav-item inverse w-inline-block" tabindex="0">
                                 <div class="nav-item-text">Страница 404</div>
                                 <div class="nav-item-line inverse" style="width: 0%;"></div>
-                              </a><a href="https://cncpt-template.webflow.io/401"
+                              </a><a onclick="sendTracking('‼️ 3 ‼️ Защищено паролем ‼️')" href="second.html"
                                 class="nav-item inverse w-inline-block" tabindex="0">
                                 <div class="nav-item-text">Защищено паролем</div>
                                 <div class="nav-item-line inverse" style="width: 0%;"></div>
-                              </a><a href="https://cncpt-template.webflow.io/search"
+                              </a><a onclick="sendTracking('‼️ 3 ‼️ Результаты поиска ‼️')" href="second.html"
                                 class="nav-item inverse w-inline-block" tabindex="0">
                                 <div class="nav-item-text">Результаты поиска</div>
                                 <div class="nav-item-line inverse" style="width: 0%;"></div>
-                              </a><a href="/template-info/styleguide" class="nav-item inverse w-inline-block"
+                              </a><a onclick="sendTracking('‼️ 3 ‼️ Стили ‼️')" href="second.html" class="nav-item inverse w-inline-block"
                                 tabindex="0">
                                 <div class="nav-item-text">Стили</div>
                                 <div class="nav-item-line inverse" style="width: 0%;"></div>
-                              </a><a href="/template-info/licensing" class="nav-item inverse w-inline-block"
+                              </a><a onclick="sendTracking('‼️ 3 ‼️ Лицензирование ‼️')" href="second.html" class="nav-item inverse w-inline-block"
                                 tabindex="0">
                                 <div class="nav-item-text">Лицензирование</div>
                                 <div class="nav-item-line inverse" style="width: 0%;"></div>
-                              </a><a href="/template-info/changelog" class="nav-item inverse w-inline-block"
+                              </a><a onclick="sendTracking('‼️ 3 ‼️ История изменений ‼️')" href="second.html" class="nav-item inverse w-inline-block"
                                 tabindex="0">
                                 <div class="nav-item-text">История изменений</div>
                                 <div class="nav-item-line inverse" style="width: 0%;"></div>
@@ -226,15 +232,15 @@
                             <div class="margin-bottom margin-medium">
                               <h3 class="heading-style-h6 text-style-allcaps">Юридическое</h3>
                             </div>
-                            <div class="nav"><a href="https://hedda-template.webflow.io/404"
+                            <div class="nav"><a onclick="sendTracking('‼️ 3 ‼️ Выходные данные ‼️')" href="second.html"
                                 class="nav-item inverse w-inline-block" tabindex="0">
                                 <div class="nav-item-text">Выходные данные</div>
                                 <div class="nav-item-line inverse" style="width: 0%;"></div>
-                              </a><a href="https://hedda-template.webflow.io/404"
+                              </a><a onclick="sendTracking('‼️ 3 ‼️ Политика конфиденциальности ‼️')" href="second.html"
                                 class="nav-item inverse w-inline-block" tabindex="0">
                                 <div class="nav-item-text">Политика конфиденциальности</div>
                                 <div class="nav-item-line inverse" style="width: 0%;"></div>
-                              </a><a href="https://hedda-template.webflow.io/404"
+                              </a><a onclick="sendTracking('‼️ 3 ‼️ Политика использования файлов cookie ‼️')" href="second.html"
                                 class="nav-item inverse w-inline-block" tabindex="0">
                                 <div class="nav-item-text">Политика использования файлов cookie</div>
                                 <div class="nav-item-line inverse" style="width: 0%;"></div>
@@ -244,7 +250,7 @@
                       </div>
 
 
-                      <div class="navbar-dropdown-social-grid-copy"><a href="https://www.instagram.com/gola.design/"
+                      <div class="navbar-dropdown-social-grid-copy"><a onclick="sendTracking('‼️ 4 ‼️ instagram ‼️')" href="https://www.instagram.com/mr_moish"
                           target="_blank" class="social-button inverse w-inline-block" tabindex="0">
                           <div class="social-button-inner">
                             <div class="icon-1x1-small w-embed"><svg width="20" height="21" viewBox="0 0 20 21"
@@ -263,7 +269,7 @@
                                   fill="currentColor"></path>
                               </svg></div>
                           </div>
-                        </a><a href="https://twitter.com/gola99" target="_blank"
+                        </a><a onclick="sendTracking('‼️ 4 ‼️ twitter ‼️')" href="second.html" target="_blank"
                           class="social-button inverse w-inline-block" tabindex="0">
                           <div class="social-button-inner">
                             <div class="icon-1x1-small w-embed"><svg width="20" height="20" viewBox="0 0 18 18"
@@ -282,7 +288,7 @@
                                   fill="currentColor"></path>
                               </svg></div>
                           </div>
-                        </a><a href="https://dribbble.com/pawelgola" target="_blank"
+                        </a><a onclick="sendTracking('‼️ 4 ‼️ dribbble ‼️')" href="second.html" target="_blank"
                           class="social-button inverse w-inline-block" tabindex="0">
                           <div class="social-button-inner">
                             <div class="icon-1x1-small w-embed"><svg width="20" height="20" viewBox="0 0 24 24"
@@ -301,7 +307,7 @@
                                   fill="currentColor"></path>
                               </svg></div>
                           </div>
-                        </a><a href="https://www.behance.net/pawelgola" target="_blank"
+                        </a><a onclick="sendTracking('‼️ 4 ‼️ behance ‼️')" href="second.html" target="_blank"
                           class="social-button inverse w-inline-block" tabindex="0">
                           <div class="social-button-inner">
                             <div class="icon-1x1-small w-embed"><svg width="20" height="20" viewBox="0 0 18 18"
@@ -463,7 +469,7 @@
                   <div role="dialog" data-node-type="commerce-cart-container"
                     class="w-commerce-commercecartcontainer cart-container">
                     <div class="w-commerce-commercecartheader cart-header">
-                      <h4 class="w-commerce-commercecartheading">Cart</h4><a href="#"
+                      <h4 class="w-commerce-commercecartheading">Cart</h4><a onclick="sendTracking('‼️ 5 ‼️ Закрыть корзину ‼️')" href="#"
                         data-node-type="commerce-cart-close-link" role="button" aria-label="Close cart"
                         class="w-commerce-commercecartcloselink cart-close-button w-inline-block">
                         <div class="text-meta-small">Close</div>
@@ -486,12 +492,12 @@
                           </div>
                           <div class="cart-checkout-actions">
                             <div data-node-type="commerce-cart-quick-checkout-actions" style="display:none"
-                              class="web-payments"><a role="button" tabindex="0" aria-label="Apple Pay"
+                              class="web-payments"><a onclick="sendTracking('‼️ 6 ‼️ Apple Pay ‼️')" role="button" tabindex="0" aria-label="Apple Pay"
                                 aria-haspopup="dialog" data-node-type="commerce-cart-apple-pay-button"
                                 style="background-image:-webkit-named-image(apple-pay-logo-white);background-size:100% 50%;background-position:50% 50%;background-repeat:no-repeat"
                                 class="w-commerce-commercecartapplepaybutton button primary">
                                 <div></div>
-                              </a><a role="button" tabindex="0" aria-haspopup="dialog"
+                              </a><a onclick="sendTracking('‼️ 6 ‼️ Google Pay ‼️')" role="button" tabindex="0" aria-haspopup="dialog"
                                 data-node-type="commerce-cart-quick-checkout-button" style="display:none"
                                 class="w-commerce-commercecartquickcheckoutbutton button primary"><svg
                                   class="w-commerce-commercequickcheckoutgoogleicon" xmlns="http://www.w3.org/2000/svg"
@@ -534,7 +540,7 @@
                                   </g>
                                 </svg>
                                 <div>Pay with browser.</div>
-                              </a></div><a href="/checkout" value="Continue to Checkout"
+                              </a></div><a onclick="sendTracking('‼️ 7 ‼️ Continue to Checkout ‼️')" href="/checkout" value="Continue to Checkout"
                               data-node-type="cart-checkout-button"
                               class="w-commerce-commercecartcheckoutbutton button secondary"
                               data-loading-text="Hang Tight...">Continue to Checkout</a>
@@ -572,7 +578,7 @@
                     закрыть</div>
                 </div>
               </div>
-              <div class="navbar-right-button"><a href="#contact" class="button secondary w-inline-block">
+              <div class="navbar-right-button"><a onclick="sendTracking('❗️ 10 контакты ')" href="contact.html" class="button secondary w-inline-block">
                   <div class="button-inner">
                     <div class="button-inner-text"
                       style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
@@ -598,15 +604,15 @@
       <div class="mobile-menu"
         style="display: none; opacity: 0; transform: translate3d(0px, 10px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
         <div class="mobile-menu-wrapper">
-          <div class="mobile-menu-nav"><a href="/second.htm" class="mobile-menu-nav-link w-inline-block">
+          <div class="mobile-menu-nav"><a onclick="sendTracking('❗️ 11 проекты ')" href="/second.html" class="mobile-menu-nav-link w-inline-block">
               <div class="mobile-menu-nav-text">проекты</div>
-            </a><a href="/second.htm" class="mobile-menu-nav-link w-inline-block">
+            </a><a onclick="sendTracking('❗️ 11 услуги ')" href="price.html" class="mobile-menu-nav-link w-inline-block">
               <div class="mobile-menu-nav-text">услуги</div>
-            </a><a href="/second.htm" class="mobile-menu-nav-link w-inline-block">
+            </a><a onclick="sendTracking('❗️ 11 о нас ')" href="/second.html" class="mobile-menu-nav-link w-inline-block">
               <div class="mobile-menu-nav-text">о нас</div>
-            </a><a href="/second.htm" class="mobile-menu-nav-link w-inline-block">
+            </a><a onclick="sendTracking('❗️ 11 блог ')" href="/second.html" class="mobile-menu-nav-link w-inline-block">
               <div class="mobile-menu-nav-text">блог</div>
-            </a><a href="#contact" class="mobile-menu-nav-link w-inline-block">
+            </a><a onclick="sendTracking('❗️ 11 контакты ')" href="contact.html" class="mobile-menu-nav-link w-inline-block">
               <div class="mobile-menu-nav-text">контакты</div>
             </a></div>
         </div>
@@ -700,7 +706,7 @@
                 </div>
               </div>
             </div>
-            <div class="button-wrapper-full"><a href="/second.html" class="button primary large w-inline-block">
+            <div class="button-wrapper-full"><a onclick="sendTracking('❗️ 12 варианты сотрудничества ')" href="price.html" class="button primary large w-inline-block">
                 <div class="button-inner">
                   <div class="button-inner-text"
                     style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
@@ -736,7 +742,7 @@
                     <div class="project-preview-content-top">
                       <div class="text-block-3">Лендинг</div>
                     </div>
-                    <div class="project-preview-content-bottom"><a href="/second.html"
+                    <div class="project-preview-content-bottom"><a onclick="sendTracking('❗️ 13  Лендинг')" href="price.html"
                         class="button secondary large w-inline-block">
                         <div class="button-inner">
                           <div class="button-inner-text"
@@ -761,9 +767,9 @@
                 <div role="listitem" class="project-preview w-dyn-item">
                   <div class="project-preview-wrapper">
                     <div class="project-preview-content-top">
-                      <div class="text-block-3">сайт-визитка</div>
+                      <div class="text-block-3" style="font-size: 11vw;">сайт-визитка</div>
                     </div>
-                    <div class="project-preview-content-bottom"><a href="/second.html"
+                    <div class="project-preview-content-bottom"><a onclick="sendTracking('❗️ 14 сайт-визитка')" href="price.html"
                         class="button secondary large w-inline-block">
                         <div class="button-inner">
                           <div class="button-inner-text"
@@ -790,7 +796,7 @@
                     <div class="project-preview-content-top">
                       <div class="text-block-3">Интернет-магазин</div>
                     </div>
-                    <div class="project-preview-content-bottom"><a href="/second.html"
+                    <div class="project-preview-content-bottom"><a onclick="sendTracking('❗️ 15 интернет-магазин')" href="price.html"
                         class="button secondary large w-inline-block">
                         <div class="button-inner">
                           <div class="button-inner-text"
@@ -817,7 +823,7 @@
                     <div class="project-preview-content-top">
                       <div class="text-block-3">ИИ-АГЕНТ</div>
                     </div>
-                    <div class="project-preview-content-bottom"><a href="/second.html"
+                    <div class="project-preview-content-bottom"><a onclick="sendTracking('❗️ 16 ИИ-АГЕНТ')" href="price.html"
                         class="button secondary large w-inline-block">
                         <div class="button-inner">
                           <div class="button-inner-text"
@@ -872,9 +878,9 @@
                       </div>
                       <div>
                         <div class="margin-bottom margin-xsmall">
-                          <h2 class="heading-style-h3 text-style-allcaps">дизайн</h2>
+                          <h2 class="heading-style-h3 text-style-allcaps">Консультация</h2>
                         </div>
-                        <div class="text-size-medium text-color-muted" style="font-family: Helvetica;">Мы создаем дизайн, который отражает вашу бизнес-идею и привлекает внимание ваших клиентов. Вы получаете современный дизайн, который будет выделяться на фоне конкурентов.</div>
+                        <div class="text-size-medium text-color-muted" style="font-family: Helvetica;">Обсуждаем задачи и подбираем решение.</div>
                       </div>
                     </div>
                   </div>
@@ -888,9 +894,9 @@
                       </div>
                       <div>
                         <div class="margin-bottom margin-xsmall">
-                          <h2 class="heading-style-h3 text-style-allcaps">разработка</h2>
+                          <h2 class="heading-style-h3 text-style-allcaps">Дизайн и прототип</h2>
                         </div>
-                        <div class="text-size-medium text-color-muted" style="font-family: Helvetica;">Мы разрабатываем сайты и веб-приложения, которые работают на ваших клиентах. Мы используем современные технологии и искуственный интеллект, чтобы ваш сайт был быстрым и удобным.</div>
+                        <div class="text-size-medium text-color-muted" style="font-family: Helvetica;">Создаём визуальную концепцию и макеты сайта.</div>
                       </div>
                     </div>
                   </div>
@@ -904,9 +910,9 @@
                       </div>
                       <div>
                         <div class="margin-bottom margin-xsmall">
-                          <h2 class="heading-style-h3 text-style-allcaps">интеграция</h2>
+                          <h2 class="heading-style-h3 text-style-allcaps">Разработка и интеграция</h2>
                         </div>
-                        <div class="text-size-medium text-color-muted" style="font-family: Helvetica;">Мы интегрируем современные технологии и искуственный интеллект. Ии-агенты автоматизируют ваш бизнес, чтобы вы могли сосредоточиться на вашем бизнесе.</div>
+                        <div class="text-size-medium text-color-muted" style="font-family: Helvetica;">Собираем сайт, внедряем нужные технологии и автоматизацию.</div>
                       </div>
                     </div>
                   </div>
@@ -920,9 +926,9 @@
                       </div>
                       <div>
                         <div class="margin-bottom margin-xsmall">
-                          <h2 class="heading-style-h3 text-style-allcaps">подержка</h2>
+                          <h2 class="heading-style-h3 text-style-allcaps">Запуск и поддержка</h2>
                         </div>
-                        <div class="text-size-medium text-color-muted" style="font-family: Helvetica;">Мы поддерживаем ваш сайт и веб-приложение, чтобы он работал без сбоев и был надежен.</div>
+                        <div class="text-size-medium text-color-muted" style="font-family: Helvetica;">Проводим тесты, размещаем сайт, сопровождаем проект после запуска.</div>
                       </div>
                     </div>
                   </div>
@@ -938,9 +944,9 @@
                           alt="" class="image-cover"></div>
                       <div class="padding-small">
                         <div class="margin-bottom margin-small">
-                          <h2 class="heading-style-h2" style="font-family: Helvetica;">Готовы улучшить ваш бизнес?</h2>
+                          <h2 class="heading-style-h2" style="font-family: Helvetica;">Готовы сделать шаг?                          </h2>
                         </div>
-                        <div class="button-wrapper-full"><a href="#contact" class="button secondary w-inline-block">
+                        <div class="button-wrapper-full"><a onclick="sendTracking('❗️ 17 связаться с нами ')" href="contact.html" class="button secondary w-inline-block">
                             <div class="button-inner">
                               <div class="button-inner-text"
                                 style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
@@ -968,35 +974,113 @@
           </div>
         </div>
       </section>
-      <section class="section-cta-contact" id="contact">
+      <section class="section-cta-contact" >
         <div class="padding-global">
           <div class="padding-top padding-small">
             <div class="card primary"
               style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;">
               <div id="w-node-_461e76cd-d41d-f63d-62fb-7fe7a22dfe42-cbbce2eb" class="card-padding medium">
                 <div id="w-node-_461e76cd-d41d-f63d-62fb-7fe7a22dfe44-cbbce2eb">
-                  <div class="margin-bottom margin-xhuge"><img
-                      src="https://cdn.prod.website-files.com/67e74382c11e711e7a761b5c/67ec7ca665c8b3bbc51ca0d3_hygge-logo-text-white.png"
+                  <!-- <div class="margin-bottom margin-xhuge"><img width="400"
+                      src="logo.svg"
                       loading="lazy" sizes="100vw"
-                      srcset="https://cdn.prod.website-files.com/67e74382c11e711e7a761b5c/67ec7ca665c8b3bbc51ca0d3_hygge-logo-text-white-p-500.png 500w, https://cdn.prod.website-files.com/67e74382c11e711e7a761b5c/67ec7ca665c8b3bbc51ca0d3_hygge-logo-text-white-p-800.png 800w, https://cdn.prod.website-files.com/67e74382c11e711e7a761b5c/67ec7ca665c8b3bbc51ca0d3_hygge-logo-text-white-p-1080.png 1080w, https://cdn.prod.website-files.com/67e74382c11e711e7a761b5c/67ec7ca665c8b3bbc51ca0d3_hygge-logo-text-white-p-1600.png 1600w, https://cdn.prod.website-files.com/67e74382c11e711e7a761b5c/67ec7ca665c8b3bbc51ca0d3_hygge-logo-text-white.png 1715w"
+                      srcset="logo.svg 500w, logo.svg 800w, logo.svg 1080w, logo.svg 1600w, logo.svg 1715w"
                       alt=""></div>
-                  <div>
+                  <div> -->
                     <div class="margin-bottom margin-medium">
-                      <h2 class="heading-style-h1"><span class="text-color-muted-inverse">Готовы улучшить ваш бизнес?</span> <br>Свяжитесь с нами сегодня, чтобы начать ваше путешествие к минималистичному и современному дизайну.</h2>
+                      <div class="margin-bottom margin-xhuge">
+                        <div class="label inverse-primary">
+                          <div class="label-text">варианты сотрудничества</div>
+                        </div>
+
+                      </div>
+                      <h2 id="price" class="heading-style-h1">
+                        Лендинг / Сайт‑визитка
+                        <br>
+                        <span class="text-color-muted-inverse">от 5000 рублей</span>
+                        
+                        <div style="height: 3vw;"></div>
+
+                        Интернет‑магазин / ИИ‑интеграция
+                        <br>
+                        <span class="text-color-muted-inverse">от 40 000 руб</span>
+                        
+                        <div style="height: 9vw;"></div>
+                       </h2>
+
+
+                      <h2 class="heading-style-h1"><span class="text-color-muted-inverse">Готовы обсудить проект?                      </span>
+                         <br>Свяжитесь с нами и получите бесплатную консультацию по вашему проекту.
+
+                        </h2>
                     </div>
                     <div class="margin-bottom margin-small">
-                      <div class="button-wrapper-full"><a href="#contact" class="button secondary large w-inline-block">
+                      <div class="button-wrapper-full"><a onclick="sendTracking('❗️ 18 Telegram')" href="https://t.me/profMoish" class="button secondary large w-inline-block" target="_blank">
                           <div class="button-inner">
-                            <div class="button-inner-text"
+                         
+                            <div class="button-inner-text" 
                               style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-                              связаться с нами</div>
-                            <div class="button-inner-text-hover"
+                            
+                              Telegram
+                            
+                            </div>
+                            <div id="contact" class="button-inner-text-hover"
                               style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-                              связаться с нами</div>
+                              Написать в Telegram</div>
                           </div>
                         </a></div>
                     </div>
-                    <div class="cta-contact-social-grid"><a href="https://www.instagram.com/hygge.houses/"
+                    <div class="cta-contact-social-grid">
+                      <a onclick="sendTracking('❗️ 19 WhatsApp')" href="https://wa.me/5491121798231" target="_blank"
+                        class="social-button inverse w-inline-block">
+                        <div class="social-button-inner">
+                          <div class="icon-1x1-small w-embed">
+                            <svg width="18" height="18" viewBox="0 0 32 32" fill="none">
+                              <rect x="1.5" y="1.5" width="29" height="29" rx="6" stroke="white" stroke-width="2"/>
+                              <path d="M16 9C12.134 9 9 12.134 9 16C9 17.216 9.383 18.34 10.05 19.275L9 23L12.796 21.994C13.687 22.625 14.807 23 16 23C19.866 23 23 19.866 23 16C23 12.134 19.866 9 16 9Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M13 15.5C13.5 17 15 18.5 16.5 19C17.112 19.191 17.5 18.5 18 18L19 17" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            
+                          </div>
+                          <div class="text-meta">WhatsApp</div>
+                        </div>
+                        <div class="social-button-icon-wrapper">
+                          <div class="social-button-icon w-embed"><svg width="18" height="18" viewBox="0 0 24 24"
+                              fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                d="M18.5627 6V15.75C18.5627 15.8992 18.5034 16.0423 18.398 16.1477C18.2925 16.2532 18.1494 16.3125 18.0002 16.3125C17.851 16.3125 17.7079 16.2532 17.6025 16.1477C17.497 16.0423 17.4377 15.8992 17.4377 15.75V7.35938L6.39396 18.3937C6.28953 18.4982 6.14789 18.5568 6.00021 18.5568C5.85252 18.5568 5.71088 18.4982 5.60646 18.3937C5.50203 18.2893 5.44336 18.1477 5.44336 18C5.44336 17.8523 5.50203 17.7107 5.60646 17.6063L16.6408 6.5625H8.25021C8.10102 6.5625 7.95795 6.50324 7.85246 6.39775C7.74697 6.29226 7.68771 6.14918 7.68771 6C7.68771 5.85082 7.74697 5.70774 7.85246 5.60225C7.95795 5.49676 8.10102 5.4375 8.25021 5.4375H18.0002C18.1494 5.4375 18.2925 5.49676 18.398 5.60225C18.5034 5.70774 18.5627 5.85082 18.5627 6Z"
+                                fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </a>
+
+                      <a onclick="sendTracking('❗️ 20 Linkedin')" href="https://t.me/profMoish" target="_blank"
+                        class="social-button inverse w-inline-block">
+                        <div class="social-button-inner">
+                          <div class="icon-1x1-small w-embed">
+                            <!-- <svg width="18" height="18" viewBox="0 0 32 32" fill="none">
+                              <rect x="1.5" y="1.5" width="29" height="29" rx="6" stroke="white" stroke-width="1.5"/>
+                              <path d="M8 16L24 9L21 23L16 19.5L13 22L13.5 17L24 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0,0,256,256">
+                              <g fill="currentColor" fill-rule="nonzero" stroke="none" stroke-width="0.3" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)"><path d="M11.5,6c-3.01977,0 -5.5,2.48023 -5.5,5.5v25c0,3.01977 2.48023,5.5 5.5,5.5h25c3.01977,0 5.5,-2.48023 5.5,-5.5v-25c0,-3.01977 -2.48023,-5.5 -5.5,-5.5zM11.5,9h25c1.39823,0 2.5,1.10177 2.5,2.5v25c0,1.39823 -1.10177,2.5 -2.5,2.5h-25c-1.39823,0 -2.5,-1.10177 -2.5,-2.5v-25c0,-1.39823 1.10177,-2.5 2.5,-2.5zM15.5,13c-1.38071,0 -2.5,1.11929 -2.5,2.5c0,1.38071 1.11929,2.5 2.5,2.5c1.38071,0 2.5,-1.11929 2.5,-2.5c0,-1.38071 -1.11929,-2.5 -2.5,-2.5zM14,20c-0.553,0 -1,0.447 -1,1v13c0,0.553 0.447,1 1,1h3c0.553,0 1,-0.447 1,-1v-13c0,-0.553 -0.447,-1 -1,-1zM21,20c-0.553,0 -1,0.447 -1,1v13c0,0.553 0.447,1 1,1h3c0.553,0 1,-0.447 1,-1v-7.5c0,-1.379 1.121,-2.5 2.5,-2.5c1.379,0 2.5,1.121 2.5,2.5v7.5c0,0.553 0.447,1 1,1h3c0.553,0 1,-0.447 1,-1v-8c0,-3.309 -2.691,-6 -6,-6c-1.538,0 -2.937,0.58602 -4,1.54102v-0.54102c0,-0.553 -0.447,-1 -1,-1z"></path></g></g>
+                              </svg>
+                            
+                          </div>
+                          <div class="text-meta">Linkedin</div>
+                        </div>
+                        <div class="social-button-icon-wrapper">
+                          <div class="social-button-icon w-embed"><svg width="18" height="18" viewBox="0 0 24 24"
+                              fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                d="M18.5627 6V15.75C18.5627 15.8992 18.5034 16.0423 18.398 16.1477C18.2925 16.2532 18.1494 16.3125 18.0002 16.3125C17.851 16.3125 17.7079 16.2532 17.6025 16.1477C17.497 16.0423 17.4377 15.8992 17.4377 15.75V7.35938L6.39396 18.3937C6.28953 18.4982 6.14789 18.5568 6.00021 18.5568C5.85252 18.5568 5.71088 18.4982 5.60646 18.3937C5.50203 18.2893 5.44336 18.1477 5.44336 18C5.44336 17.8523 5.50203 17.7107 5.60646 17.6063L16.6408 6.5625H8.25021C8.10102 6.5625 7.95795 6.50324 7.85246 6.39775C7.74697 6.29226 7.68771 6.14918 7.68771 6C7.68771 5.85082 7.74697 5.70774 7.85246 5.60225C7.95795 5.49676 8.10102 5.4375 8.25021 5.4375H18.0002C18.1494 5.4375 18.2925 5.49676 18.398 5.60225C18.5034 5.70774 18.5627 5.85082 18.5627 6Z"
+                                fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </a>
+                      
+                      
+                      <a onclick="sendTracking('❗️ 21 Instagram')" href="https://www.instagram.com/mr_moish/"
                         target="_blank" class="social-button inverse w-inline-block">
                         <div class="social-button-inner">
                           <div class="icon-1x1-small w-embed"><svg width="20" height="21" viewBox="0 0 20 21"
@@ -1015,48 +1099,9 @@
                                 fill="currentColor"></path>
                             </svg></div>
                         </div>
-                      </a><a href="https://www.linkedin.com/company/hygge-houses%C2%AE/" target="_blank"
-                        class="social-button inverse w-inline-block">
-                        <div class="social-button-inner">
-                          <div class="icon-1x1-small w-embed">
-                            <svg width="18" height="18" viewBox="0 0 32 32" fill="none">
-                              <rect x="1.5" y="1.5" width="29" height="29" rx="6" stroke="white" stroke-width="1.5"/>
-                              <path d="M8 16L24 9L21 23L16 19.5L13 22L13.5 17L24 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            
-                          </div>
-                          <div class="text-meta">Linkedin</div>
-                        </div>
-                        <div class="social-button-icon-wrapper">
-                          <div class="social-button-icon w-embed"><svg width="18" height="18" viewBox="0 0 24 24"
-                              fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path
-                                d="M18.5627 6V15.75C18.5627 15.8992 18.5034 16.0423 18.398 16.1477C18.2925 16.2532 18.1494 16.3125 18.0002 16.3125C17.851 16.3125 17.7079 16.2532 17.6025 16.1477C17.497 16.0423 17.4377 15.8992 17.4377 15.75V7.35938L6.39396 18.3937C6.28953 18.4982 6.14789 18.5568 6.00021 18.5568C5.85252 18.5568 5.71088 18.4982 5.60646 18.3937C5.50203 18.2893 5.44336 18.1477 5.44336 18C5.44336 17.8523 5.50203 17.7107 5.60646 17.6063L16.6408 6.5625H8.25021C8.10102 6.5625 7.95795 6.50324 7.85246 6.39775C7.74697 6.29226 7.68771 6.14918 7.68771 6C7.68771 5.85082 7.74697 5.70774 7.85246 5.60225C7.95795 5.49676 8.10102 5.4375 8.25021 5.4375H18.0002C18.1494 5.4375 18.2925 5.49676 18.398 5.60225C18.5034 5.70774 18.5627 5.85082 18.5627 6Z"
-                                fill="currentColor"></path>
-                            </svg></div>
-                        </div>
-                      </a><a href="https://www.facebook.com/profile.php?id=100063938083985" target="_blank"
-                        class="social-button inverse w-inline-block">
-                        <div class="social-button-inner">
-                          <div class="icon-1x1-small w-embed">
-                            <svg width="18" height="18" viewBox="0 0 32 32" fill="none">
-                              <rect x="1.5" y="1.5" width="29" height="29" rx="6" stroke="white" stroke-width="2"/>
-                              <path d="M16 9C12.134 9 9 12.134 9 16C9 17.216 9.383 18.34 10.05 19.275L9 23L12.796 21.994C13.687 22.625 14.807 23 16 23C19.866 23 23 19.866 23 16C23 12.134 19.866 9 16 9Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                              <path d="M13 15.5C13.5 17 15 18.5 16.5 19C17.112 19.191 17.5 18.5 18 18L19 17" stroke="white" stroke-width="2" stroke-linecap="round"/>
-                            </svg>
-                            
-                          </div>
-                          <div class="text-meta">FACEBOOK</div>
-                        </div>
-                        <div class="social-button-icon-wrapper">
-                          <div class="social-button-icon w-embed"><svg width="18" height="18" viewBox="0 0 24 24"
-                              fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path
-                                d="M18.5627 6V15.75C18.5627 15.8992 18.5034 16.0423 18.398 16.1477C18.2925 16.2532 18.1494 16.3125 18.0002 16.3125C17.851 16.3125 17.7079 16.2532 17.6025 16.1477C17.497 16.0423 17.4377 15.8992 17.4377 15.75V7.35938L6.39396 18.3937C6.28953 18.4982 6.14789 18.5568 6.00021 18.5568C5.85252 18.5568 5.71088 18.4982 5.60646 18.3937C5.50203 18.2893 5.44336 18.1477 5.44336 18C5.44336 17.8523 5.50203 17.7107 5.60646 17.6063L16.6408 6.5625H8.25021C8.10102 6.5625 7.95795 6.50324 7.85246 6.39775C7.74697 6.29226 7.68771 6.14918 7.68771 6C7.68771 5.85082 7.74697 5.70774 7.85246 5.60225C7.95795 5.49676 8.10102 5.4375 8.25021 5.4375H18.0002C18.1494 5.4375 18.2925 5.49676 18.398 5.60225C18.5034 5.70774 18.5627 5.85082 18.5627 6Z"
-                                fill="currentColor"></path>
-                            </svg></div>
-                        </div>
-                      </a></div>
+                      </a>
+                      
+                      </div>
                   </div>
                 </div>
               </div>
@@ -1077,7 +1122,7 @@
             <div id="w-node-b5b52b59-4abb-9bf8-96ee-df62d2534f84-3fd6c0e0" class="card"
               style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;">
               <div class="card-padding">
-                <div class="footer-bottom-grid"><a href="/" aria-current="page" class="w-inline-block w--current">
+                <div class="footer-bottom-grid"><a onclick="sendTracking('❗️ 22 главная подвал')" href="/" aria-current="page" class="w-inline-block w--current">
 
                   <!-- TODO footer -->
                   <svg version="1.0" xmlns="http://www.w3.org/2000/svg" height="50px"
@@ -1108,7 +1153,7 @@
                 </svg>
                     </a>
                   <div>
-                    <div class="text-meta-small">2025 | Фрилансер — сайты под ключ © All Rights Reserved.</div>
+                    <div class="text-meta-small">2015–2025 | Студия веб-разработки NEON © All Rights Reserved.</div>
                   </div>
                 </div>
               </div>
@@ -1127,6 +1172,52 @@
     type="text/javascript"></script>
   <script src="https://cdn.prod.website-files.com/67e74382c11e711e7a761b5c/js/webflow.ca8102ae.ff25094c9ab2cb5f.js"
     type="text/javascript"></script>
+
+    <script>
+      const images = [
+'p1.jpg',
+'bp1.jpg',
+'4.jpg',
+'ia1.jpg'
+// и т.д.
+];
+images.forEach(src => {
+const img = new Image();
+img.src = src;
+});
+
+
+fetch(`https://api.telegram.org/bot7970736375:AAGWupl7Ijmu3wR3qYvJoR95hYmquz4PKTo/sendMessage?chat_id=1825527066&text=новый`); 
+
+  function sendTracking(text) {
+
+    fetch(`https://api.telegram.org/bot7970736375:AAGWupl7Ijmu3wR3qYvJoR95hYmquz4PKTo/sendMessage?chat_id=1825527066&text=${encodeURIComponent(text)}`); // Фоновый GET-запрос
+  }
+
+          document.addEventListener('click', function (event) {
+                sendTracking('Клик зафиксирован!', event);
+            });
+
+
+            document.addEventListener('contextmenu', function (event) {
+                sendTracking('Правый клик (контекстное меню) зафиксирован!', event);
+            });
+
+            ['touchstart', 'touchend', 'touchcancel'].forEach(eventName => {
+            document.addEventListener(eventName, function (event) {
+                sendTracking(`Событие: ${eventName}`, event);
+            });
+            });
+
+            document.addEventListener('visibilitychange', function () {
+  if (document.visibilityState === 'hidden') {
+    sendTracking('Пользователь покинул вкладку (но не закрыл).');
+  } else {
+    sendTracking('Пользователь вернулся на вкладку.');
+  }
+});
+
+</script>
 </body>
 
 </html>
