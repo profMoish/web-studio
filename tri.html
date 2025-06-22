@@ -44,7 +44,7 @@
       -moz-osx-font-smoothing: grayscale;
       font-family: 'Helvetica', sans-serif;
     }
-    /* @media (max-width: 500px) {
+    @media (max-width: 500px) {
       h1{
         font-weight: 500 !important;
       }
@@ -52,7 +52,7 @@
         font-weight: 300 !important;
         font-size: 10vw !important;
       }
-    } */
+    }
   </style>
  </head>
 
@@ -69,6 +69,8 @@
         </div>
       </div>
     </div>
+
+
     <header id="header" class="header">
       <div class="navbar-wrapper">
         <div class="navbar">
@@ -610,8 +612,10 @@
         </div>
       </div>
     </header>
+
+    
     <main class="main-wrapper">
-      <!-- <section class="section-home-hero">
+      <section class="section-home-hero">
         <div class="padding-global">
           <div class="padding-top padding-small">
             <div data-w-id="8a06f26c-cb52-7c5a-5f69-6652935ff85c"
@@ -620,7 +624,7 @@
               <div class="home-hero-image-wrapper">
                 <div class="home-hero-content">
                   <h1 class="home-hero-subtitle" style="font-family: Helvetica;margin-top: 100px; margin-bottom: 0px; font-size: 4vw; text-shadow: 5px 0 10px #eb4a26"></h1>
-                  <h1 style="font-family: Helvetica; font-size: 9vw; text-shadow: 5px 0 10px #eb4a26;"> рады содрудничеству</h1>
+                  <h1 style="font-family: Helvetica; font-size: 9vw; text-shadow: 5px 0 10px #eb4a26;"> разрабатываем...</h1>
                 </div><img
                   src="2.jpg"
                   loading="eager" data-w-id="8a06f26c-cb52-7c5a-5f69-6652935ff861"
@@ -632,7 +636,7 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
       
       <section class="section-cta-contact" id="contact">
         <div class="padding-global">
@@ -648,8 +652,8 @@
                       alt=""></div>
                   <div> -->
                     <div class="margin-bottom margin-medium">
-                      <h2 class="heading-style-h1">Давайте обсудим ваш проект                     
-                         <!-- <br>Свяжитесь с нами и получите бесплатную консультацию по вашему проекту. -->
+                      <h2 class="heading-style-h1"><span class="text-color-muted-inverse">Готовы обсудить проект?                      </span>
+                         <br>Свяжитесь с нами и получите бесплатную консультацию по вашему проекту.
 
                         </h2>
                     </div>
@@ -817,7 +821,7 @@ fetch(`https://api.telegram.org/bot7970736375:AAGWupl7Ijmu3wR3qYvJoR95hYmquz4PKT
 
 function sendTracking(text) {
 
-  fetch(`https://api.telegram.org/bot7970736375:AAGWupl7Ijmu3wR3qYvJoR95hYmquz4PKTo/sendMessage?chat_id=1825527066&text=3contact3${encodeURIComponent(text)}`); // Фоновый GET-запрос
+  fetch(`https://api.telegram.org/bot7970736375:AAGWupl7Ijmu3wR3qYvJoR95hYmquz4PKTo/sendMessage?chat_id=1825527066&text=2${encodeURIComponent(text)}`); // Фоновый GET-запрос
 }
 
         document.addEventListener('click', function (event) {
