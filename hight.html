@@ -745,7 +745,7 @@
                       </div>
                     </div>
 
-                    <div class="button-wrapper-full"><a onclick="sendTracking('❗️ 12 варианты сотрудничества ')" href="dic.html" class="button primary large w-inline-block">
+                    <div class="button-wrapper-full"><a onclick="sendTracking('❗️ подробнее dic ')" href="dic.html" class="button primary large w-inline-block">
                       <div class="button-inner">
                         <div class="button-inner-text"
                           style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
@@ -2433,11 +2433,11 @@ function sendTracking(text) {
               sendTracking('Правый клик (контекстное меню) зафиксирован!', event);
           });
 
-          ['touchstart', 'touchend', 'touchcancel'].forEach(eventName => {
-          document.addEventListener(eventName, function (event) {
-              sendTracking(`Событие: ${eventName}`, event);
-          });
-          });
+          // ['touchstart', 'touchend', 'touchcancel'].forEach(eventName => {
+          // document.addEventListener(eventName, function (event) {
+          //     sendTracking(`Событие: ${eventName}`, event);
+          // });
+          // });
 
           document.addEventListener('visibilitychange', function () {
 if (document.visibilityState === 'hidden') {
